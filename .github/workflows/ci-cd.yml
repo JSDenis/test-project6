@@ -29,7 +29,7 @@ jobs:
       - name: Install and deploy
         env:
           USER_EMAIL: ${{ secrets.USER_EMAIL }}
-          USER_NAME: ${{ secrets.USER_NAME }}
+          USER_NAME: ${{ secrets.USER_NAME1111 }}
         run: |
           git config --global user.email $USER_EMAIL
           git config --global user.name $USER_NAME
